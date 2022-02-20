@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./lib",
+    "paths": {
+      "~*": ["./*"]
+    },
     "outDir": "dist/esm",
     "module": "esnext",
     "target": "es5",
@@ -17,6 +21,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["lib"],
+  "include": ["lib/**/*"],
   "exclude": ["node_modules"]
 }
