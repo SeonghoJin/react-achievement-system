@@ -1,9 +1,9 @@
 // @flow
 import * as React from 'react';
-import {AchievementType} from "../core/useAchievementSystemStore";
+import {AchievementType} from "~core/useAchievementSystemStore";
 import {useCallback, useEffect, useState} from "react";
 import {useAchievementViewQueue} from "./useAchievementViewQueue";
-import {AchievementComponent} from "./AchievementComponent/AchievementComponent";
+import {AchievementComponent} from "~component/AchievementComponent";
 
 type Props = {
     achievements: AchievementType,
