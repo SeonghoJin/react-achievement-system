@@ -8,11 +8,6 @@
 You don't care about the achievement system. 
 React-achievement-system will manage both achievement-related status and feedback when achieved.
 
-## Environments in which to use dot-map
-
-- Browser - chrome
-
-
 ## Installation
 ```shell
 npm i --save react-achievement-system recoil
