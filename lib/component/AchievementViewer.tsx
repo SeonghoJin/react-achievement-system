@@ -3,7 +3,7 @@ import * as React from 'react';
 import {AchievementType} from "../core/useAchievementSystemStore";
 import {useCallback, useEffect, useState} from "react";
 import {useAchievementViewQueue} from "./useAchievementViewQueue";
-import {AchievementComponent} from "./AchievementComponent";
+import {AchievementComponent} from "./AchievementComponent/AchievementComponent";
 
 type Props = {
     achievements: AchievementType,

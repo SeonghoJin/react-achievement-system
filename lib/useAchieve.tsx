@@ -1,6 +1,6 @@
 import {RecoilState, useRecoilState} from "recoil";
-import { AchievementType} from "./core/useAchievementSystemStore";
 import {useCallback} from "react";
+import {AchievementType} from "~core/useAchievementSystemStore";
 
 export type AchievementAction<T> = (achieveName: keyof T) => void;
 export type UseAchieveReturnType<T> = {

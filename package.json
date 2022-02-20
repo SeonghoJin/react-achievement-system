@@ -11,6 +11,8 @@
     "@parcel/transformer-typescript-types": "^2.3.2",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.23",
+    "styled-component": "^2.8.0",
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
@@ -20,5 +22,8 @@
   },
   "files": [
     "/dist"
-  ]
+  ],
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  }
 }

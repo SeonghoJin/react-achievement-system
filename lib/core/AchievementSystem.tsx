@@ -12,7 +12,6 @@ export type AchievementSystemOptions<T> = {
 export type AchievementSystemType = <T extends AchievementType>(arg: AchievementSystemOptions<T>) => ReactElement;
 
 export const AchievementSystem : AchievementSystemType = ({children, store,time = 3}) => {
-console.log(store);
     const {achievementStore} = useAchievementSystemStore(store);
 
     return (

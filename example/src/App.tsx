@@ -1,11 +1,12 @@
 import React from 'react';
-import {useAchieve} from "react-achievement-system";
 import {achievementStore} from "./achieve";
+import { useAchieve } from 'react-achievement-system';
 
 
 function App() {
 
   const {achieve} = useAchieve(achievementStore);
+
   return (
     <div className="App">
       <button onClick={() => achieve('hi')}>hi</button>
@@ -15,3 +16,4 @@ function App() {
 }
 
 export default App;
+
