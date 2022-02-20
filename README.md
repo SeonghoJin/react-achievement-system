@@ -1,8 +1,9 @@
 # 
 [![npm version](https://badge.fury.io/js/dot-map-renderer.svg)](https://www.npmjs.com/package/react-achievement-system)
 
-<img src="./images/click.gif" alt="click">
-
+<p align="center">
+    <img src="./images/click.gif" alt="click" width="300">
+</p>
 # react-achievement-system
 You don't care about the achievement system. 
 React-achievement-system will manage both achievement-related status and feedback when achieved.
