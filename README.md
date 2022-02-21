@@ -4,6 +4,7 @@
 <p align="center">
     <img src="./images/click.gif" alt="click" width="300">
 </p>
+
 # react-achievement-system
 You don't care about the achievement system. 
 React-achievement-system will manage both achievement-related status and feedback when achieved.
