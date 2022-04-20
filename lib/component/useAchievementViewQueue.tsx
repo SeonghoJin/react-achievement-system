@@ -14,15 +14,14 @@ export const useAchievementViewQueue = () => {
        }
        if(showing)return;
        setShowing(true);
-        (() => {
-            setCurrentAchieveName(achieveNames[0] ?? null);
-            setTimeout(() => {
-                queuePop();
-            }, 3000)
-        })();
+       setCurrentAchieveName(achieveNames[0] ?? null);
+       setTimeout(() => {
+           pop();
+       }, 3000)
+   
     }, [achieveNames, showing]);
 
-    const queuePop = useCallback(() => {
+    const pop = useCallback(() => {
         setAchieveNames((prev) => {
             const nextState = [...prev];
             nextState.shift();
